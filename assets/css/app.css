@@ -239,7 +239,7 @@ div.speparator{
 
 .projets{
     background-color: #5B5B5B ;
-    height: 100vh;
+    height: auto;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -270,7 +270,6 @@ div.speparator{
     position: relative;
     top: 0;
     left: 0;
-    z-index: 100;
     opacity: 100;
     transition: 0.2s;
 }
@@ -290,6 +289,43 @@ div.speparator{
     display:block;
     padding-top: 10%;
     margin: auto;
+}
+
+.tab-section {
+    background-color: #343434;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tab-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tab-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.tab-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.tab-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #DFBA61;
+    color: #111111;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+    background-color: #F3E5AB;
 }
 
 .cv-section {
